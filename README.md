@@ -1,3 +1,4 @@
+### 환경설정 하는법
 1. wsl(Ubuntu) 실행(나가는건 exit)
 wsl
 
@@ -23,9 +24,12 @@ python3 -m pip install notebook
 pip freeze > requirements.txt
 (남들은 일케 다운받음 pip install -r requirements.txt)
 
-*. Jupyter Notebook 실행
-jupyter notebook
 
-*. vscode 실행
++ vscode 실행
 code .
 (ctrl+shift+p 눌러서 Python: Select Interpreter 입력 후 venv 선택)
+
++ Jupyter Notebook 실행
+jupyter notebook
+
+
