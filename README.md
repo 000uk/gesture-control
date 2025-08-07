@@ -30,8 +30,9 @@ pip freeze > requirements.txt
 # 9. (다른 환경에서) 패키지 일괄 설치 (venv 활성화 상태)
 pip install -r requirements.txt
 
-# 11. VSCode 실행
+# 10. VSCode 실행
 code . (ctrl+shift+p 눌러서 Python: Select Interpreter 입력 후 venv 선택)
 
-# 12. Jupyter Notebook 실행
+# 11. Jupyter Notebook 실행
 jupyter notebook
+
